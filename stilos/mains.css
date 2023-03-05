@@ -11,75 +11,6 @@ html {
     max-height: 150px;
 }
 
-/* .footer {
-    grid-area: footer; */
-
-
-
-/* footer{
- margin-top: 100%;
-background-color: rgb(174, 174, 240);
-text-align: center;
-color: black;
-} */
-/* 
-footer p{font-size:larger} */
-
-/* 
-
-.redes {
-    text-align: center;
-    margin-top: 10px;
-    background-color: blueviole;
-}
-
-.sociales ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-.sociales li {
-
-    display: inline;
-    text-align: center;
-    margin: 0 60px 0 0;
-    color: blue;
-    width: 40px;
-    height: 40px;
-
-}
-
-.sociales a {
-
-    text-decoration: none;
-}
-
-.sociales img {
-    display: inline;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-}
-.sociales p {
-    color: white; */
-
-
-#primeraparte {
-    background-color: rgb(174, 174, 240);
-}
-
-#primeraparte img {
-
-    width: 1000px;
-    height: 1000px;
-
-
-
-
-}
-
-
-
 .imaginacion img {
     width: 200px;
     height: 200px;
@@ -185,10 +116,6 @@ video {
     background-size: cover;
 }
 
+.carrusel img{width:auto;
+height: 590px;}
 
-
-/* footer{margin-top: auto;
-background-color: #b5c5c7;
-text-align: center;
-}
-footer p{font-size: small;} */
