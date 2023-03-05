@@ -94,15 +94,15 @@ html {
 }
 
 .somos {
-    margin: none;
-    padding: none;
+    margin: auto;
+    padding: auto;
     text-align: center;
     font-size: 30px;
 
 }
 
 .nosotrossomos p {
-    margin-top: 20px;
+    margin: autox;
     color: black;
     font-size: 50px;
     text-decoration: solid
