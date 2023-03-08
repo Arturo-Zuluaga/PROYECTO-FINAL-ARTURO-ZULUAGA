@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
 body {
     flex-direction: column;
     min-height: 100%;
@@ -7,8 +12,48 @@ html {
     height: 100%;
 }
 
-.header .logo img {
+.header text-center img {
     max-height: 150px;
+    
+    }
+    
+.text-center img{
+    animation-name: efecto_logo;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 0s;}
+
+
+
+@keyframes efecto_logo {
+    
+    0%{height: 150px;
+
+    }
+
+    20%{height: 160px
+
+    }
+    40%{height: 170px
+
+    }
+
+    60%{height: 180px
+
+    }
+    70%{height: 175px
+
+    }
+    80%{height: 160px
+
+    }
+    90%{height: 155px
+
+    }
+    100%{height: 150px
+
+    }
+
 }
 
 .imaginacion img {
@@ -116,6 +161,64 @@ video {
     background-size: cover;
 }
 
-.carrusel img{width:auto;
-height: 590px;}
+.carrusel img{
+    width:auto;
+    height: 590px;}
 
+
+.clase{width: 100%;
+    height: 100%;
+    display: flex;
+    max-width: 1100px;}
+
+.card{
+    width: 100%;
+    margin: 30px;
+    border-radius: 6px;
+    overflow:hidden ;
+    background-color: white;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition:all 2s ease;}
+
+
+.card:hover{ 
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-5%);
+}
+
+.card img{
+    width: 400px;
+    height: 400px;
+
+}
+
+.card .contenido{ 
+    padding: 15px;
+    text-align: center;
+
+}
+.card .contenido p{
+    line-height: 1,5;
+    color: black;
+    font-size: medium;
+}
+
+
+
+
+
+
+/* 
+.card{
+    text-align: center;
+    margin-top: 20px;
+    height: 500px;
+    width: 350px;
+    transition: height 1
+    s, width 2s,}
+    
+.card:hover{
+            height: 500px;
+            width: 500px;
+            } */
