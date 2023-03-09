@@ -1,0 +1,19 @@
+.somos {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  font-size: 30px;
+}
+.somos .imagennosotros {
+  background-image: url(../multimedia/media/imagen7.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.somos .imagennosotros p {
+  overflow: hidden;
+  color: black;
+  font-size: 25px;
+  text-decoration: solid;
+}
+
+/*# sourceMappingURL=nosotros.css.map */
