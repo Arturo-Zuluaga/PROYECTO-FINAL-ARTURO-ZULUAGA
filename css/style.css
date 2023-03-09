@@ -51,26 +51,25 @@ header .text-center img {
 }
 
 .forma {
-  width: 100%;
-  padding: 3px;
+  text-align: center;
+  width: 80%;
+  padding: 10px;
   color: white;
   background-color: rgb(174, 174, 240);
   margin: auto;
-  margin-top: 30px;
+  margin-top: 15px;
   border-radius: 4px;
 }
-.forma h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-.forma h1 h5 {
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-.forma h1 h5 .boton {
-  width: 20%;
+.forma .boton {
+  height: 50px;
+  width: 60px;
   border-radius: 4px;
   background-color: white;
+}
+.forma .boton h1 {
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 20px;
 }
 
 .mapa {
@@ -105,8 +104,8 @@ header .text-center img {
 }
 
 .card {
-  width: 100%;
-  margin: 30px;
+  width: 80%;
+  margin: 40px;
   border-radius: 6px;
   overflow: hidden;
   background-color: white;
@@ -119,14 +118,15 @@ header .text-center img {
   transform: translateY(-5%);
 }
 .card img {
-  width: 500px;
-  height: 400px;
+  height: 350px;
 }
 .card img .contenido {
+  text-align: center;
   padding: 30px;
   text-align: center;
 }
 .card img .contenido p {
+  align-items: center;
   line-height: 1, 5;
   color: black;
   font-size: medium;
