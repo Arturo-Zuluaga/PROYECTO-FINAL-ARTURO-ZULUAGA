@@ -1,7 +1,4 @@
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -24,10 +21,7 @@ header{
         animation-name: efecto_logo;
         animation-iteration-count: infinite;
         animation-duration: 10s;
-        animation-delay: 0s;;
-        
-    }
- }
+        animation-delay: 0s;}  
 
 @keyframes efecto_logo {
     
@@ -60,50 +54,40 @@ header{
 
 }
 
-.tallerimagen img {
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
-    float: left;
-    margin: 5px;
-
-}
-
-.forma {
-    width: 100%;
-    padding: 3px;
-    color: white;
-    background-color: rgb(174, 174, 240);
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 4px;
-
-}
-
-.forma h5 {
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.letras {
-    width: 90%;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid;
 
 
 }
+ .forma {
+             width: 100%;
+             padding: 3px;
+             color: white;
+             background-color: rgb(174, 174, 240);
+            margin: auto;
+            margin-top: 30px;
+            border-radius: 4px;
+                    h1{font-size: 40px;
+                    margin-bottom: 20px;
+               
+                     h5 {
+                    font-size: 22px;
+                   margin-bottom: 15px;
+    
+            
 
-.forma .boton {
-    width: 20%;
-    border-radius: 4px;
-    background-color: white;
-}
+                    .boton {
+                     width: 20%;
+                    border-radius: 4px;
+                     background-color: white;
+
+                }
+            }
+        }      
+    }
+
 
 .mapa {
     margin: 10px;
-    margin-bottom: 10px;
+   
     border-radius: 5px;
 
 }
@@ -115,19 +99,17 @@ header{
 
     .imagennosotros {
 
-    background-image: url("../multimedia/media/imagen7.jpg");
+    background-image:url(../multimedia/media/imagen7.jpg);
     background-size: cover;
     background-position: center center;
 
-        p {
-            margin: autox;
-            color: black;
-            font-size: 30px;
-            text-decoration: solid
+                 p {
+                  margin: autox;
+                    color: black;
+                    font-size: 30px;
+                    text-decoration: solid
+                }
     }
-
-
-}
 
 }
 
@@ -139,35 +121,38 @@ header{
     height: 590px;}
 }
 
-// 
-
-.card{
+.card {
     width: 100%;
     margin: 30px;
-    border-radius: 6px;
+     border-radius: 6px;
     overflow:hidden ;
     background-color: white;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
-    transition:all 2s ease;}
-
-
-        &:hover{ 
+    transition:all 2s ease;
+   
+         &:hover{ 
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-        transform: translateY(-5%);
+        transform: translateY(-5%);} 
+
+             img{
+             width: 500px;
+            height: 400px;
+
+                    .contenido{ 
+                    padding: 30px;
+                    text-align: center;
+
+                         p{
+                        line-height: 1,5;
+                        color: black;
+                        font-size: medium;
+
+                       
+                        }
+                    }
+                }
+}
 
 
-        img{
-        width: 400px;
-        height: 400px;
 
-
-            .contenido{ 
-             padding: 15px;
-                text-align: center;
-                 p{
-                line-height: 1,5;
-                color: black;
-                font-size: medium;
-
-            }}}
