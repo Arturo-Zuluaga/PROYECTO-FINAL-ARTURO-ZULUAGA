@@ -1,5 +1,5 @@
 .somos {
-  margin: auto;
+  margin: 30px;
   padding: auto;
   text-align: center;
   font-size: 30px;
@@ -12,7 +12,7 @@
 .somos .imagennosotros p {
   overflow: hidden;
   color: black;
-  font-size: 25px;
+  font-size: 32px;
   text-decoration: solid;
 }
 
