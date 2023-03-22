@@ -1,4 +1,4 @@
-@mixin imagenes{
+@mixin imagenes {
     width: 80%;
     margin: 40px;
      border-radius: 6px;
@@ -8,3 +8,8 @@
     cursor: default;
     transition:all 2s ease;
 }
+.card{
+     @include imagenes
+    }
+
+    

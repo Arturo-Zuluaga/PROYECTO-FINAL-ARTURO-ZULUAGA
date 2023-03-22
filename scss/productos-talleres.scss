@@ -1,18 +1,13 @@
 
 .card {
-    
-    @include imagenes{
-   
-         &:hover{ 
+    @include imagenes ;
+        &:hover{ 
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-        transform: translateY(-5%);} 
-
+        transform: translateY(-5%);
              img{
-            
             height: 350px;
-
                     .contenido{ 
-                        text-align: center;
+                    text-align: center;
                     padding: 30px;
                     text-align: center;
 
@@ -26,6 +21,6 @@
                         }
                     }
                 }
-}
-
-}
+             }
+        }
+    
