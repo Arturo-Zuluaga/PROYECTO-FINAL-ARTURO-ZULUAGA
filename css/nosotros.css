@@ -1,5 +1,5 @@
 .videos {
-  height: 50%;
+  height: auto;
   width: 100%;
   margin: 10px;
   margin-top: 30px;
@@ -22,8 +22,9 @@
 }
 
 .historia {
-  margin: 120px;
+  margin: 50px 50px;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .historia .historianosotoros {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
