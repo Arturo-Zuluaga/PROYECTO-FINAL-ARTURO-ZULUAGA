@@ -1,6 +1,7 @@
 
 
 .card{
+    min-height: 320px;
     @include imagenes;
             &:hover {box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
             transform: translateY(-5%);
@@ -18,17 +19,9 @@
 
     
     h5{text-align: center;
-        text-shadow: 2px 2px 5px purple;  
         padding: 10px;}
     
-    
 
-
-.a{     text-align: center;
-        text-decoration: none;
-        text-shadow: 2px 2px 5px purple;  
-        padding: 10px;
-}  
 
 
 .card2{
@@ -49,14 +42,12 @@
         }
 
      .card-text{text-align: center;
-            text-shadow: 2px 2px 5px purple;  
-            padding: 10px;
-            font-size: larger;}
+                padding: 10px;
+                font-size: larger;}
 
 
     
-    h5{text-align: center;
-        text-shadow: 2px 2px 5px purple;  
+    h5{text-align: center; 
         padding: 10px;}
     
     

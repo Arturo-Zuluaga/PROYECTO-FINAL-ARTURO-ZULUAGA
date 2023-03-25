@@ -1,8 +1,9 @@
 @mixin imagenes {
     
     
-   margin-top: 30px;
+   margin-top: 60px;
    margin-bottom: 100px;
+   margin: 30px;
 
     width: 100%;
     height: 95%;
@@ -11,7 +12,7 @@
     background-color: white;
     box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: default;
-    transition:all 5s ease;
+    transition:all 1s ease;
 }
 .card{
      @include imagenes
@@ -20,7 +21,7 @@
 @mixin imagen {
     
     
-        margin-top: 30px;
+        margin-top: 60px;
         margin-bottom: 100px;
      
          width: 100%;
@@ -30,7 +31,7 @@
          background-color: white;
          box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0,0,0,0.19);
          cursor: default;
-         transition:all 5s ease;
+         transition:all 1s ease;
      }
 .card2{
           @include imagen

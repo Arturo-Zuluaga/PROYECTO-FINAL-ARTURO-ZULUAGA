@@ -4,6 +4,7 @@
     box-sizing: border-box;}
 
 body {
+    background-color: azure;
 
     min-height: 100%;
     
@@ -15,10 +16,11 @@ html {
 
 
 header{
-    height: 200px;
+    padding: 20px;
+    height: 160px;
 
         .text-center img {
-        max-height: 190px;
+        max-height: 140px;
         animation-name: efecto_logo;
         animation-iteration-count: infinite;
         animation-duration: 10s;
@@ -30,30 +32,30 @@ header{
 
 @keyframes efecto_logo {
     
-    0%{height: 150px;
+    0%{height: 130px;
 
     }
 
-    20%{height: 160px
+    20%{height: 135px
 
     }
-    40%{height: 170px
+    40%{height: 140px
 
     }
 
-    60%{height: 180px
+    60%{height: 144px
 
     }
-    70%{height: 185px
+    70%{height: 140px
 
     }
-    80%{height: 190px
+    80%{height: 138px
 
     }
-    90%{height: 195px
+    90%{height: 135px
 
     }
-    100%{height: 150px
+    100%{height: 130px
 
     }
 
