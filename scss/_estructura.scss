@@ -7,40 +7,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
     min-height: 100%;
+    background-color: azure;
     
-}
-
-.contenedor > *{
-    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0.75);
-    padding: 10px;
-    text-align: center;
-    border-radius: 4px;
- 
-
-
-.header{grid-area: header;
-background-color: yellow;}
-
-.navbar{grid-area: navbar;
-    background-color:gold}
-
-.main{grid-area: main;
-    background-color:blue}
-
-.footer{grid-area:footer;
-    background-color:hotpink}
-
-
-
-}
-.contenedor {   display: grid;
-    gap: 10px;
-    grid-template-areas:
-    "header"
-    "navbar"
-    "main"
-    "footer";
-
 }
 
 html {
@@ -51,9 +19,11 @@ html {
 header{
     padding: 20px;
     height: 160px;
+   
 
         .text-center img {
         max-height: 140px;
+        max-width: 300px;
         animation-name: efecto_logo;
         animation-iteration-count: infinite;
         animation-duration: 10s;
@@ -66,13 +36,17 @@ header{
 @keyframes efecto_logo {
     
     0%{height: 130px;
+       
+
 
     }
 
-    20%{height: 135px
+    20%{height: 135px;
+        
 
     }
-    40%{height: 140px
+    40%{height: 140px;
+       
 
     }
 

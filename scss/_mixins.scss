@@ -1,41 +1,47 @@
-@mixin imagenes {
-    
-    
-   margin-top: 60px;
-   margin-bottom: 100px;
-   margin: 30px;
+// mixin para nuestros productos
 
-    width: 100%;
-    height: 95%;
-     border-radius: 6px;
-    overflow:hidden ;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0,0,0,0.19);
-    cursor: default;
-    transition:all 1s ease;
+@mixin cartadeimagenes{
+    
+    margin-top: 50px;
+    margin-left:100px ;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    width: 1200px;
+    height: 430px;
+
 }
-.card{
-     @include imagenes
+
+
+
+.rotulado{
+     @include cartadeimagenes
     }
 
-@mixin imagen {
+
+
+
+
     
-    
-        margin-top: 60px;
-        margin-bottom: 100px;
-     
-         width: 100%;
-         height: 95%;
-          border-radius: 6px;
-         overflow:hidden ;
-         background-color: white;
-         box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0,0,0,0.19);
-         cursor: default;
-         transition:all 1s ease;
-     }
-.card2{
-          @include imagen
-         }
+// mixin para talleres
+
+
+
+@mixin cartadetaller{
+    height: 100%;
+    width:500px;
+    margin:auto ;
+    padding: 20px;}
+
+
+.card{
+        @include cartadetaller
+       }
+
+
+
+
+
 
 
 
