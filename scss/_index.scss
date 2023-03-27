@@ -1,5 +1,9 @@
 .carrusel{
+    overflow: hidden;
     width:100%;
-    img{
-    height: 590px;}
+    height: 590px;
+     img{
+        width: 100%;
+     }
 }
+            
