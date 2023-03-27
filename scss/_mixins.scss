@@ -16,34 +16,4 @@
 
 .rotulado{
      @include cartadeimagenes
-    }
-
-
-
-
-
-    
-// mixin para talleres
-
-
-
-@mixin cartadetaller{
-    height: 100%;
-    width:500px;
-    margin:auto ;
-    padding: 20px;}
-
-
-.card{
-        @include cartadetaller
-       }
-
-
-
-
-
-
-
-
-
-    
+}

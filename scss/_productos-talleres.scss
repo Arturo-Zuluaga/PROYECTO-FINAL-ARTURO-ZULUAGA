@@ -1,10 +1,35 @@
 
+
+    img{
+        width: 100%;
+        height: 100%;
+       object-fit: cover;
+    border-radius: 8px;}
+
+    .galery-picture{
+        margin: 10px 10px ;
+        margin-top: 20px;
+        min-width: 200px;
+        flex:350px;
+        height: 300px;
+        
+        
+}
+
+
+.contenedor-rotulado{min-width: 320px;
+overflow: hidden}
+
 .rotulado{
     @include cartadeimagenes;
+    min-width: 320px;
+    overflow: hidden;
+
 
     
             
-            img{width: 0;
+            img{
+                width: 0;
                 flex-grow: 1;
                 object-fit: cover;
                 opacity: .8;
@@ -18,58 +43,8 @@
                 }
 }
 
-.card{
-    @include cartadetaller;
-    
-       
-
-            img{width:100%;
-            flex-grow: 1;
-            object-fit: cover;
-            opacity:0.8;
-            border-radius: 8px;
-             
-
-        }
-    }
-
-.galeria{padding: 20px;
-    background-color: beige;
-    margin: 30px 30px;
-    box-shadow: 0 4px 8px 0 lightskyblue;
-    text-align: center;
-    float: left;
-    width: 100%;
-    height: 100%;
-    
-    .foto{
-        img{
-        overflow: hidden;
-        flex-grow: 1;
-        object-fit: cover;
-        opacity:1;
-        border-radius: 5px;
-    }
+.row gy-5{
+  flex-basis: 0;
+  flex-grow: 999;
+  min-width: 60%
 }
-}
-
-.container-fluid{
-    overflow: hidden;
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-       
-}
-
-
-
-.main{
-    display: grid;
-    gap: 1rem;
-    grid-auto-rows: 22rem;
-    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
-       
-}
-
-
