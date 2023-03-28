@@ -238,12 +238,12 @@ img {
 
 @media (max-width: 1300px) {
   .rotulado {
-    width: 75%;
+    width: 100%;
   }
 }
 @media (max-width: 800px) {
   .rotulado {
-    width: 50%;
+    width: 100%;
   }
 }
 .row gy-5 {
