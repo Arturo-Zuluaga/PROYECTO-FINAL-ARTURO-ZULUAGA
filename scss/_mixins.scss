@@ -1,13 +1,10 @@
 // mixin para nuestros productos
 
 @mixin cartadeimagenes{
+    padding: 20px;
     
-    margin-top: 50px;
-    margin-left:100px ;
-    margin-right: 100px;
-    margin-bottom: 50px;
     display: flex;
-    width: 1200px;
+    width: 100%;
     height: 430px;
 
 }

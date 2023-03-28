@@ -21,6 +21,7 @@
 overflow: hidden}
 
 .rotulado{
+    
     @include cartadeimagenes;
     min-width: 320px;
     overflow: hidden;
@@ -29,6 +30,7 @@ overflow: hidden}
     
             
             img{
+
                 width: 0;
                 flex-grow: 1;
                 object-fit: cover;
@@ -43,8 +45,50 @@ overflow: hidden}
                 }
 }
 
+@media(max-width:1300px){
+    .rotulado{
+        width: 75%;
+    }
+}
+
+
+@media(max-width:800px){
+    .rotulado{
+        width: 50%;
+    }
+}
+
 .row gy-5{
   flex-basis: 0;
   flex-grow: 999;
   min-width: 60%
+}
+
+.l-taller{ display: grid;
+    place-items: center;
+  
+
+
+
+.letras-taller{ 
+    margin: 20px;
+    min-width: 320px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: solid;
+    color: grey
+}
+
+@media(max-width:1300px){
+    .letras-taller{
+        font-size: larger;
+    }
+}
+
+
+@media(max-width:800px){
+    .letras-taller{
+        font-size: small;
+    }
+}
 }
